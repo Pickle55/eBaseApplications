@@ -35,7 +35,7 @@ $person = $_POST['person'];
 	<?php
 	// Print 10 times
 	for ($i=10; $i>0; $i--) {
-		//Changed "<"" sign to ">" sign
+		//Changed "<" sign to ">" sign
 		//Changed $i++ to $i-- so the for statement could run
 		//Changed + to . for proper concatenation
 		echo '<p>'. $lipsum . '</p>';
@@ -74,8 +74,8 @@ $person = $_POST['person'];
 		<tbody>
 			<?php foreach ($people as $person) : ?>
 				<tr>
-					<!-- Removed "=>" and added brackets for the following 3 lines -->
-					<!-- Lines were removed for testing -->
+					<!-- Removed "->" and added brackets for the following 3 lines -->
+					<!-- Lines were changed for testing -->
 					<td><?=$person['first_name'];?></td> 
 					<td><?=$person['last_name'];?></td>
 					<td><?=$person['email'];?></td>
