@@ -1,6 +1,6 @@
 <?php
 
-//Creates the personID at a higher scope level. If it was put in the foreach loop it would continue to be reset
+//Creates the personID at a higher scope level. If it was put in the foreach loop the variable would be reset
 $personID = 0;
 
 $people = array(
@@ -24,6 +24,7 @@ foreach ($people as $person) {
 	echo "<tr><td>" . $person['first_name'] . "</td>" . "<td>" . $person['last_name'] . "</td>" . "<td>" . $person['email'] . "</td>" . "<td><button id=btn" . $personID . "  onClick=personInfo(" . $personID . ") type=button>Click Me!</button></td>" . "</tr>";
 }
 
+//Closes the table
 echo "</table>";
 
 ?>
