@@ -15,7 +15,6 @@ $people = array(
 	array('id'=>5, 'first_name'=>'Doug', 'last_name'=>'Simons', 'email'=>'doug.simons@hotmail.com')
 );
 
-//Someone added this line so that you don't have to type the full code for
 $person = $_POST['person'];
 
 ?>
